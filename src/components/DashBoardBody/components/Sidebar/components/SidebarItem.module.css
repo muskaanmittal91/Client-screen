@@ -1,0 +1,12 @@
+.SideBarItem {
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 7px solid black;
+  margin-bottom: 4px;
+}
+
+.SideBarItem:hover {
+    background-color: gray;
+}

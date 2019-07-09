@@ -1,0 +1,18 @@
+.dashboardBody {
+  position: absolute;
+  top: 61px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+}
+.innerBody {
+  background-color: blue;
+  height: calc(100vh - 61px);
+  width: 100vw;
+}
+@media (min-width: 1200px) {
+  .innerBody {
+    position: absolute;
+    left: 250px;
+  }
+}

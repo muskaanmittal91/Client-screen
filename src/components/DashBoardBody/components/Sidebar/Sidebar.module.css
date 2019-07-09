@@ -1,0 +1,21 @@
+.Sidebar {
+    width: 250px;
+    height: calc(100vh - 61px);
+    background-color: aquamarine;
+    z-index: 300;
+}
+
+.modal {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 61px);
+    z-index: 290;
+    background-color: rgba(8, 82, 82, 0.3)
+}
+
+@media (min-width: 1200px) {
+    .modal {
+        display: none;
+    }
+}
